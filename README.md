@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Coffee fun fact web page developed with React JS and Tailwind CSS.
+this website contains 21 facts about coffee.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
