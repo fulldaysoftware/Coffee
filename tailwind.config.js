@@ -7,7 +7,8 @@ module.exports = {
     colors: {
       'cfbg': '#700909',
       'hltText': '#FFFFFF',
-      'bd-txt': '#2E0909'
+      'bd-txt': '#2E0909',
+      'dark':'	#000000'
     },
     fontFamily: {
       'titleText':['Lobster', 'cursive'],

@@ -1,6 +1,7 @@
 import React from 'react'
 import Transparentbox from './Shared/Transparentbox'
 import Background from '../images/background.jpg'
+import { Link } from 'react-router-dom'
 
 function LandingContent() {
     let Style = {
@@ -19,7 +20,7 @@ function LandingContent() {
             <Transparentbox text={text3}/>
         </div>
         <div className='flex justify-center -mt-8'>
-            <button className='bg-hltText opacity-40 backdrop-blur-md p-3 text-lg rounded-md'>Go to Fun facts</button>
+            <button className='bg-hltText opacity-40 backdrop-blur-md p-3 text-lg rounded-md'><Link to="/funfacts">Go to Fun facts</Link></button>
         </div>
     </div>
   )
