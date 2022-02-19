@@ -1,9 +1,14 @@
+import Footer from "./components/Footer";
+import LandingContent from "./components/LandingContent";
+import Navbar from "./components/Navbar";
+
+
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline font-titleText">
-        Hello world!
-      </h1>
+      <Navbar/>
+      <LandingContent/>
+      <Footer/>
     </div>
   );
 }
